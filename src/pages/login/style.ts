@@ -14,3 +14,12 @@ export const DivLogin = styled.div`
   height: 60%;
   background: ${({ theme }) => theme.colors.white};
 `
+export const InpuntLogin = styled.input`
+  width: 100%;
+  border-radius: 25px;
+  height: 29px;
+`
+
+export const LabelLogin = styled.label`
+  font-size: ${({ theme }) => theme.fontSizes.sm};
+`

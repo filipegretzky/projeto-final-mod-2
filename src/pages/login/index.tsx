@@ -1,4 +1,4 @@
-import { DivLogin, DivbottonLogin } from './style'
+import { DivLogin, DivbottonLogin, InpuntLogin, LabelLogin } from './style'
 
 const Login = () => {
   return (
@@ -7,23 +7,23 @@ const Login = () => {
         <h4>seja bem vindo</h4>
         <h1>Realize seu login</h1>
         <div>
-          <label>
+          <LabelLogin>
             email
-            <input />
-          </label>
+            <InpuntLogin />
+          </LabelLogin>
         </div>
 
         <div>
-          <label>
+          <LabelLogin>
             senha
-            <input />
-          </label>
+            <InpuntLogin />
+          </LabelLogin>
         </div>
 
         <div>
-          <label>
+          <LabelLogin>
             <input type="checkbox" />
-          </label>
+          </LabelLogin>
           lembre-se de mim
           <a>esqueci minha senha </a>
         </div>
