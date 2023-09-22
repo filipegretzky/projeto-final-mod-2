@@ -1,8 +1,4 @@
 const Login = () => {
-  return (
-    <div>
-      <p>funcionou</p>
-    </div>
-  )
+  return <div></div>
 }
 export default Login
