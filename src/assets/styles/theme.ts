@@ -5,5 +5,12 @@ const theme = {
     ghostgreen: 'rgba(180,224,142,1)',
     green: 'rgba(0,194,71,1)'
   },
-  fontSizes: {}
+  fontSizes: {
+    sm: '14 px',
+    md: '16 px',
+    lg: '20 px',
+    xl: '24 px',
+    xxl: '32 px',
+    xxxl: '36 px'
+  }
 }
