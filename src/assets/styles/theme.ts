@@ -1,4 +1,4 @@
-const theme = {
+export const theme = {
   colors: {
     white: '#fff',
     forestgreen: 'rgba(4,102,57,1)',
@@ -12,5 +12,6 @@ const theme = {
     xl: '24 px',
     xxl: '32 px',
     xxxl: '36 px'
-  }
+  },
+  fontfamily: ["'Poppins', sans-serif", "'Sora', sans-serif"]
 }
