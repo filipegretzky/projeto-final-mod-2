@@ -35,7 +35,7 @@ const Login = () => {
             lembre-se de mim
           </LabelLogin>
 
-          <a>esqueci minha senha </a>
+          <a href="">esqueci minha senha </a>
         </DivaAlignment>
 
         <DivaAlignment>
