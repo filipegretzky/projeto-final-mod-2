@@ -1,36 +1,46 @@
-import { DivLogin, DivbottonLogin, InpuntLogin, LabelLogin } from './style'
+import {
+  Button,
+  DivLogin,
+  DivaAlignment,
+  DivbottonLogin,
+  InpuntLogin,
+  LabelLogin
+} from './style'
 
 const Login = () => {
   return (
     <DivbottonLogin>
       <DivLogin>
-        <h4>seja bem vindo</h4>
-        <h1>Realize seu login</h1>
-        <div>
+        <DivaAlignment>
+          <h4>seja bem vindo</h4>
+          <h1>Realize seu login</h1>
+        </DivaAlignment>
+        <DivaAlignment>
           <LabelLogin>
             email
-            <InpuntLogin />
+            <InpuntLogin type="email" />
           </LabelLogin>
-        </div>
+        </DivaAlignment>
 
-        <div>
+        <DivaAlignment>
           <LabelLogin>
             senha
-            <InpuntLogin />
+            <InpuntLogin type="password" />
           </LabelLogin>
-        </div>
+        </DivaAlignment>
 
-        <div>
+        <DivaAlignment>
           <LabelLogin>
             <input type="checkbox" />
+            lembre-se de mim
           </LabelLogin>
-          lembre-se de mim
-          <a>esqueci minha senha </a>
-        </div>
 
-        <div>
-          <button>entrar</button>
-        </div>
+          <a>esqueci minha senha </a>
+        </DivaAlignment>
+
+        <DivaAlignment>
+          <Button>entrar</Button>
+        </DivaAlignment>
       </DivLogin>
     </DivbottonLogin>
   )
